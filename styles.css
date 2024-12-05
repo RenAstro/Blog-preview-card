@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: hsl(47, 88%, 63%);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+.card {
+    max-width: 370px;
+    height: 80vh;
+    width:90%;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid;
+    display: flex;
+    flex-direction: column;
+    flex-flow: row wrap;
+    box-shadow: 10px 10px;
+
+}
+.main-image {
+    width: 100%;
+}
+.card img {
+    border-radius: 10px;
+}
+.card-heading {
+    padding: 5px; 
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 5px;
+    font-size: 16px;
+    width: 30%;
+    height: 2rem;
+    text-align: center;
+}
+h3 {
+    font-weight: 500;
+    width: 100%;
+    color: (0, 0%, 7%);
+    font-size: 16px;
+}
+h1 {
+    font-size: 23px;
+    font-weight: 750;
+}
+h1:hover{
+    color: hsl(47, 88%, 63%);
+}
+p {
+    color: hsl(0, 0%, 42%);
+}
+
+.profile-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.profile-section img{
+    max-width: 80%;
+    border: 1px solid gray;
+    border-radius: 50%;
+    box-shadow: 2px 2px;
+    transition-duration: 0.5s;
+
+}
+.profile-section img:hover{
+    box-shadow: 3px 3px 2px inset;
+    transition: 0.5ms;
+}
+.profile-section h2{
+    padding-left: 0.2rem;
+    font-size: 16px;
+}
+
+/*---------------footer--------------*/
+.attribution {
+     font-size: 11px; 
+     text-align: center;
+     margin: 3%;
+     position: static bottom;
+     font-weight: 600;
+}
+.attribution a {
+     text-decoration: none;
+    }
+.attribution a:hover{
+    color: hsl(285, 71%, 66%);
+}
